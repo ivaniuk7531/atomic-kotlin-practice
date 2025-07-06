@@ -11,8 +11,8 @@ files:
           offset: 70
         initialized_from_dependency: false
         encrypted_possible_answer: faIBYX0OPOGnY2h9anmrXQ==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
       - offset: 96
         length: 3
         placeholder_text: '''?'''
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: foQQYk2p5XfZuGgioBfZMQ==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 121
         length: 3
         placeholder_text: '''?'''
@@ -31,11 +31,14 @@ files:
           offset: 121
         initialized_from_dependency: false
         encrypted_possible_answer: LRwh929Bq+/SD0JxINT7eA==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 06 Jul 2025 19:27:52 UTC"
 record: -1
