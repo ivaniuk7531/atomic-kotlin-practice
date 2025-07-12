@@ -1,11 +1,29 @@
 // Booleans/Task3.kt
 package booleansExercise3
 
-fun and(b1: Boolean, b2: Boolean): Boolean =
-  TODO()
+fun and(first: Boolean, second: Boolean): Boolean {
+  if (first) {
+    if (second) {
+      return true
+    } else {
+      return false
+    }
+  } else {
+    return false
+  }
+}
 
-fun or(b1: Boolean, b2: Boolean): Boolean =
-  TODO()
+fun or(first: Boolean, second: Boolean): Boolean {
+  if (first) {
+    return true
+  } else {
+    if (second) {
+      return true
+    } else {
+      return false
+    }
+  }
+}
 
 fun main() {
   println(and(true, true)) // true

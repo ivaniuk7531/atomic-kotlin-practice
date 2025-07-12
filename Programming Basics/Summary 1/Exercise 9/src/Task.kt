@@ -2,7 +2,14 @@
 package summaryIExercise9
 
 fun printTriangle(n: Int) {
-  TODO()
+  for (i in 1..n) {
+    val spaces = n - i
+    val hashes = 2 * i - 1
+
+    repeat(spaces) { print(" ") }
+    repeat(hashes) { print("#") }
+    println()
+  }
 }
 
 fun main() {

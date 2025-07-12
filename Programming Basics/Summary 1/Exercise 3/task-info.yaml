@@ -3,7 +3,7 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 114
+      - offset: 120
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: KUtTVVUD2FoftR6M7SCWgQ==
         selected: false
-        status: Unchecked
-      - offset: 126
+        status: Solved
+      - offset: 132
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -22,8 +22,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 1qQ9kQ9eUXSirgUkxBvydQ==
         selected: false
-        status: Unchecked
-      - offset: 201
+        status: Solved
+      - offset: 205
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -32,8 +32,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: B32H4xjFtl8yhKC200kQ5w==
         selected: false
-        status: Unchecked
-      - offset: 213
+        status: Solved
+      - offset: 217
         length: 6
         placeholder_text: TODO()
         initial_state:
@@ -41,11 +41,14 @@ files:
           offset: 213
         initialized_from_dependency: false
         encrypted_possible_answer: Y3eDTb4jKIJENiymIXby7w==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 12 Jul 2025 10:18:14 UTC"
 record: -1

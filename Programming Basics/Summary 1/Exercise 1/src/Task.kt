@@ -2,5 +2,13 @@
 package summaryIExercise1
 
 fun main() {
-  TODO()
+  var x = 1
+  var y = x
+  var z = y
+
+  x = 2
+
+  println(x)
+  println(y)
+  println(z)
 }
