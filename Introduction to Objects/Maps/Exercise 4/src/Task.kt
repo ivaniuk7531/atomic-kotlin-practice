@@ -3,9 +3,9 @@ package mapsExercise4
 
 fun main() {
   val map = mapOf(
-    1 to "one",
     2 to "two",
     3 to "three",
+    1 to "one",
   )
   println(map)
 }

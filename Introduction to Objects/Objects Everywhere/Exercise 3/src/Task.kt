@@ -8,7 +8,10 @@ fun isPalIgnoreCase(s: String): Boolean =
   isPalindrome(s.lowercase())
 
 fun isPalIgnoreSpecial(s: String): Boolean {
-  TODO()
+  val regex = "[^a-zA-Z0-9]".toRegex()
+  val newString = regex.replace(s, "")
+
+  return isPalIgnoreCase(newString)
 }
 
 fun main() {

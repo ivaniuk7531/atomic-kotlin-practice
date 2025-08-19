@@ -1,12 +1,9 @@
 // Constructors/Task2.kt
 package constructorsExercise2
 
-class Robot {
-  var x = 0
-  var y = 0
-  val fieldSize = 100
+class Robot(private val fieldSize: Int = 100, var x: Int = 0, var y: Int = 0) {
 
-  fun crossBoundary(coordinate: Int): Int {
+  private fun crossBoundary(coordinate: Int): Int {
     val inBounds = coordinate % fieldSize
     return if (inBounds < 0) {
       fieldSize + inBounds

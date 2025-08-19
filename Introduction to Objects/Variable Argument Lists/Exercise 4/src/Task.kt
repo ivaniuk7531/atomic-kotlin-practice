@@ -2,9 +2,7 @@
 package variableArgumentListsExercise4
 import atomictest.eq
 
-fun flatten(listOfLists: List<List<String>>): List<String> {
-  TODO()
-}
+fun flatten(listOfLists: List<List<String>>): List<String>  = listOfLists.flatten()
 
 fun main() {
   val listOfLists = listOf(listOf("a", "b"), listOf("c", "d"))

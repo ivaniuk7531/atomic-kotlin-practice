@@ -1,7 +1,9 @@
 // CreatingClasses/Task2.kt
 package creatingClassesExercise2
 
-// TODO
+class Giraffe {
+    fun displayID() = println(this.toString().substringAfter("@"))
+}
 
 fun main() {
   /*

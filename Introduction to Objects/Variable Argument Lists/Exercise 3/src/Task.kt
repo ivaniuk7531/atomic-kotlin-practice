@@ -2,9 +2,7 @@
 package variableArgumentListsExercise3
 import atomictest.eq
 
-fun listOfChunks(size: Int, vararg elements: String): List<List<String>> {
-  TODO()
-}
+fun listOfChunks(size: Int, vararg elements: String): List<List<String>> =  elements.asList().chunked(size)
 
 fun main() {
   val chunks = listOfChunks(3, "a", "b", "c", "d", "e", "f", "g")

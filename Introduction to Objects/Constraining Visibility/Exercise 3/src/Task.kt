@@ -18,26 +18,60 @@ class Robot(
   
 
   fun right(steps: Int) {
+    val isValid = this.validateSteps(steps)
+
+    if (isValid) {
+      return
+    }
+
     x += steps
   x = crossBoundary(x)
   }
 
   fun left(steps: Int) {
+    val isValid = this.validateSteps(steps)
+
+    if (isValid) {
+      return
+    }
+
     x -= steps
   x = crossBoundary(x)
   }
 
   fun down(steps: Int) {
+    val isValid = this.validateSteps(steps)
+
+    if (isValid) {
+      return
+    }
+
     y += steps
   y = crossBoundary(y)
   }
 
   fun up(steps: Int) {
+    val isValid = this.validateSteps(steps)
+
+    if (isValid) {
+      return
+    }
+
     y -= steps
   y = crossBoundary(y)
   }
 
   fun getLocation(): String = "($x, $y)"
+
+  private fun validateSteps(steps: Int): Boolean {
+    if (steps <= 0) {
+      println("steps argument must be positive, is $steps")
+
+      return false
+    }
+
+    return true
+  }
 
   override fun toString() = "Robot(x=$x,y = $y)"
 }
