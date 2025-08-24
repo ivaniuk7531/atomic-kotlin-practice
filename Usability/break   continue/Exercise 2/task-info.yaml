@@ -11,9 +11,9 @@ files:
           offset: 215
         initialized_from_dependency: false
         encrypted_possible_answer: 51S1qwF5ZI91Nx1FrnOMYQ==
-        selected: false
-        status: Unchecked
-      - offset: 417
+        selected: true
+        status: Solved
+      - offset: 414
         length: 12
         placeholder_text: // add label
         initial_state:
@@ -21,11 +21,14 @@ files:
           offset: 417
         initialized_from_dependency: false
         encrypted_possible_answer: w2YiwC46nv4QIl78Wi2nBw==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 24 Aug 2025 13:05:45 UTC"
 record: -1

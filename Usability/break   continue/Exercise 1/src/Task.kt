@@ -3,7 +3,18 @@ package breakAndContinueExercise1
 import atomictest.*
 
 fun readNumbers(vararg n: String) {
-  TODO()
+  var sum = 0
+
+  for (input in n) {
+    val number = input.toIntOrNull()
+    if (number == null) {
+      trace("Not a number: $input")
+    } else {
+      sum += number
+    }
+    if (number == 0) break
+  }
+  trace("Sum: $sum")
 }
 
 fun main() {

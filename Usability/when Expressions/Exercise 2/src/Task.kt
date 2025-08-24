@@ -3,7 +3,14 @@ package whenExpressionsExercise2
 import atomictest.eq
 
 fun temperature(temperature: Int): String =
-  TODO()
+  when (temperature) {
+     in 25..Int.MAX_VALUE -> "Hot"
+     in 15..24 -> "Warm"
+     in 5..14 -> "Cool"
+     in -5..4 -> "Cold"
+     in Int.MIN_VALUE..-5 -> "Freezing"
+    else -> throw IllegalArgumentException()
+  }
 
 fun main() {
   temperature(30) eq "Hot"

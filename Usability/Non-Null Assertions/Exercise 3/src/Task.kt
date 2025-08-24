@@ -1,10 +1,12 @@
 // NonNullAssertions/Task3.kt
 package nonNullAssertionsExercise3
 import atomictest.eq
-import kotlin.math.absoluteValue
+import kotlin.math.abs
 
 fun absMinIsMax(list: List<Int>): Boolean {
-  TODO()
+  if (list.isEmpty()) return false
+
+  return abs( list.maxOrNull() ?: 0) == abs(list.minOrNull() ?: 0)
 }
 
 fun main() {

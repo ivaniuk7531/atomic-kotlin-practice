@@ -12,9 +12,8 @@ data class AirlineTicket(
 fun AirlineTicket.transferTicket(
   otherFirstName: String,
   otherLastName: String
-): AirlineTicket {
-  TODO()
-}
+): AirlineTicket = this.copy(firstName = otherFirstName, lastName = otherLastName)
+
 
 fun main() {
   val ticket = AirlineTicket("Bruce", "Eckel",

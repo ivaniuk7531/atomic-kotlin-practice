@@ -4,27 +4,27 @@ files:
     visible: true
     placeholders:
       - offset: 128
-        length: 36
+        length: 25
         placeholder_text: Any /* replace with required type */
         initial_state:
           length: 36
           offset: 128
         initialized_from_dependency: false
         encrypted_possible_answer: TCjDbuypa6/5nxsWuarjduzZHJ6rFyHiQuMikD5FQ34=
-        selected: false
-        status: Unchecked
-      - offset: 169
-        length: 6
+        selected: true
+        status: Solved
+      - offset: 207
+        length: 31
         placeholder_text: TODO()
         initial_state:
           length: 6
           offset: 169
         initialized_from_dependency: false
         encrypted_possible_answer: edKQZTSDAYq3WlAp0nKiOQqofGYmJQyR4DZ/oiFamwzq7RPPWQ22C0YODxemvkM338aOPQ0CF29dbgetw6LWa325rFmLZcEmJCIam0x43yiLvsSaAP0rxjOLs4fntpWp
-        selected: false
-        status: Unchecked
-      - offset: 192
-        length: 231
+        selected: true
+        status: Solved
+      - offset: 253
+        length: 202
         placeholder_text: |-
           /*
               val result = calculate(5, 7)
@@ -42,11 +42,14 @@ files:
           offset: 192
         initialized_from_dependency: false
         encrypted_possible_answer: n3LeqUbuODPOsduGxh8yuNnUS1824tQs2NZhY/GmfzI+BxRtqsFHQs/trtHC1Y46YhMD2Pa6oG4DepMKR9KyIuOG7aKKSUGVW8Mk9YEvLg7TfppULFlp1bDh3xMs3EiqQYx7gCXFIoEUawSM8jXwPuSizJc/2WR3y88G6ZYy/DT1odj6xPjQxQZkH7FDEY6bEBBBv8Ei5Nb0TcMIbhhWJ6kAflpHDcWRbEaXv+9Dst0uJBjnRUe0qxE0FB1AFOvvlPrwe7VXe+nNnc5rN8lTXA==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 22 Aug 2025 13:55:43 UTC"
 record: -1

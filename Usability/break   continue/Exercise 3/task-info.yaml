@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 120
-        length: 71
+        length: 88
         placeholder_text: |-
           for (i in list) {
               if (i == 0) break
@@ -15,9 +15,9 @@ files:
           offset: 120
         initialized_from_dependency: false
         encrypted_possible_answer: bRwuNIrRqE3z0QPEkGFquEmk+3Ov5u0L2PegYUg8sHs=
-        selected: false
-        status: Unchecked
-      - offset: 251
+        selected: true
+        status: Solved
+      - offset: 268
         length: 7
         placeholder_text: // TODO
         initial_state:
@@ -25,9 +25,9 @@ files:
           offset: 251
         initialized_from_dependency: false
         encrypted_possible_answer: Lwrt2ly1LqMZ1MVF4nkPNSCM4VKLcGDb2S3UroYynXo2juXPOTloF4FwZqB+j1vyEx34YSlIyuRmhHfe0t0sX/MrrurIfiurCCjxijcI8IA=
-        selected: false
-        status: Unchecked
-      - offset: 343
+        selected: true
+        status: Solved
+      - offset: 360
         length: 48
         placeholder_text: |-
           if (i == 0) continue
@@ -37,9 +37,9 @@ files:
           offset: 343
         initialized_from_dependency: false
         encrypted_possible_answer: 4FkfGuWd+1+ItcgDtMLNoOdf+KQnpPK/lPTLE798mJ0=
-        selected: false
-        status: Unchecked
-      - offset: 449
+        selected: true
+        status: Solved
+      - offset: 466
         length: 7
         placeholder_text: // TODO
         initial_state:
@@ -47,11 +47,14 @@ files:
           offset: 449
         initialized_from_dependency: false
         encrypted_possible_answer: fmXckmxgEIf1nQFv2l395uo4vXdWAXQ/TwHvXkFzA8Cbfz/iVQMR5cxwCofVIqEe
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: test/Tests.kt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 24 Aug 2025 13:08:47 UTC"
 record: -1

@@ -14,9 +14,30 @@ enum class Season {
   Winter, Spring, Summer, Autumn
 }
 
-fun Month.getAustralianSeason(): Season = TODO()
+fun Month.getAustralianSeason(): Season =
+  when (this) {
+    June, July, August -> Winter
+    September, October, November -> Spring
+    December, January, February -> Summer
+    March, April, May -> Autumn
+  }
 
-fun Month.getDays(leapYear: Boolean = false): Int = TODO()
+fun Month.getDays(leapYear: Boolean = false): Int =
+  when (this) {
+    January -> 31
+    February -> if (leapYear) 29 else 28
+    March -> 31
+    April -> 30
+    May -> 31
+    June -> 30
+    July -> 31
+    August -> 31
+    September -> 30
+    October -> 31
+    November -> 30
+    December -> 31
+  }
+
 
 fun main() {
   January.getAustralianSeason() eq Summer

@@ -20,8 +20,7 @@ class Cage(private val maxCapacity: Int) {
       true
     }
 
-  fun get(name: String): Hamster? =
-    TODO()
+  fun get(name: String): Hamster? = this.hamsters.getOrDefault(name, null)
 }
 
 fun main() {

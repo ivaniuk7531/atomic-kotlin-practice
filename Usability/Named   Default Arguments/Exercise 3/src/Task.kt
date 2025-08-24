@@ -2,8 +2,11 @@
 package namedAndDefaultArgumentsExercise3
 import atomictest.eq
 
-fun joinComments(s: String): String =
-  TODO()
+fun joinComments(s: String): String =    s.lines()
+  .filter { it.trim().startsWith("//") }
+  .map { it.replace("// ", "").trim() }
+  .filter { it.isNotEmpty() }
+  .joinToString("; ")
 
 fun main() {
   val s = """

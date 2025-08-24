@@ -2,11 +2,20 @@
 package extensionsForNullableTypesExercise2
 import atomictest.eq
 
-fun Boolean?.and(that: Boolean?): Boolean? =
-  TODO()
+fun Boolean?.and(other: Boolean?): Boolean? =
+  if (this == null || other == null) {
+    null
+  } else {
+    this && other
+  }
+
 
 fun Boolean?.or(that: Boolean?): Boolean? =
-  TODO()
+  if (this == null || that == null) {
+    null
+  } else {
+    this || that
+  }
 
 fun main() {
   val b = true

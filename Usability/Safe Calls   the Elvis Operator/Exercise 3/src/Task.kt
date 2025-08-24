@@ -16,7 +16,13 @@ data class Address(
 
 
 
-fun Client.fullInfo(): String = TODO()
+fun Client.fullInfo(): String = """
+name: ${this.name}
+email: ${this.personalInfo?.email ?: "Unspecified"}
+country: ${this.personalInfo?.address?.country ?: "Unspecified"}
+city: ${this.personalInfo?.address?.city ?: "Unspecified"}
+street: ${this.personalInfo?.address?.street ?: "Unspecified"}
+""".trimIndent()
 
 fun main() {
   val alice = Client("Alice",
